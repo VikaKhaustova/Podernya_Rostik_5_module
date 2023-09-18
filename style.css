@@ -159,7 +159,10 @@ h1::after {
     border: 3px double rgb(0, 238, 255);
 }
 
-.nav-link:hover{
-border-bottom: 5px solid rgb(115, 0, 255);
-color: rgb(115, 0, 255);
+
+.post:hover .article-but {
+    border: 5px solid #133aac;
+    background-color: white;
+    color: #133aac;
+    box-shadow:3px 5px 10px gold;
 }
